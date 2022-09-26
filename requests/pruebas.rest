@@ -1,0 +1,75 @@
+# POST http://localhost/tablas/tabla1create.php
+#  Content-Type: application/json
+
+#  {
+#    "descripcion" : "fsssssssssssskdjEWsdsdsdk",
+#    "nombres" : "Luis",
+#    "apellidos" : "Mercado"
+#  }
+
+
+#POST http://localhost/tablas/tabla1delete.php
+#Content-Type: application/json
+
+#{
+#  "id" : 4
+#}
+
+#POST http://localhost/tablas/tabla1update.php
+#Content-Type: application/json
+
+#{
+#  "id" : 1,
+#  "descripcion" : "Logrado2",
+#  "nombres" : "Luis Angel",
+#  "apellidos" : "Mercado"
+#}
+
+#GET http://localhost/tablas/tabla1read.php?id=1
+
+#GET http://localhost/tablas/tabla1.php
+
+//-------------------ENDPOINTS TABLAS 2------------------------
+POST http://localhost/tablas/tabla2create.php
+
+ {
+   "tabla1_id" : 1,
+   "descripcion" : "Estsaggsdo es una prueba",
+   "titulo" : "La prodssdgramacsdsión",
+   "horario" : "2001-01-01 14:55:00",
+   "fecha" : "2001-01-01",
+   "unidades" : 3,
+   "precio" : 23000,
+   "email" : "tester@tester.com"
+ }
+
+# POST http://localhost/tablas/tabla2delete.php
+# Content-Type: application/json
+
+# {
+#   "id" : 6
+# }
+
+# POST http://localhost/tablas/tabla2update.php
+# Content-Type: application/json
+
+# {
+#   "id" : 7,
+#   "descripcion" : "Esto es una actualización",
+#   "titulo" : "La programación",
+#   "horario" : "2001-01-01 14:55:00",
+#   "fecha" : "2001-01-01",
+#   "unidades" : 3,
+#   "precio" : 23000,
+#   "email" : "tester@tester.com"
+# }
+
+#GET http://localhost/tablas/tabla2read.php?id=7
+
+#GET http://localhost/tablas/tabla2.php
+
+
+
+//Este es un fichero .rest compatible con la extensión de VS Code llamado "REST Client"
+//Instale la extensión y empiece a hacer peticiones :)
+//Clic en Send Request cuando tenga instalada la extensión
